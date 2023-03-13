@@ -46873,7 +46873,7 @@ wQ(){var s=0,r=A.N(t.z),q,p=2,o,n=this,m,l,k,j,i
 var $async$wQ=A.O(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.V(n.w.IL("http://bbj.up.railway.app/api/v1/discounted-packages",t.z),$async$wQ)
+return A.V(n.w.IL("https://bbj.up.railway.app/api/v1/discounted-packages",t.z),$async$wQ)
 case 7:m=b
 if(J.a2(m.a,"success"))n.P(new A.auK(n,m))
 p=2
@@ -46897,7 +46897,7 @@ wR(){var s=0,r=A.N(t.z),q,p=2,o,n=this,m,l,k,j,i
 var $async$wR=A.O(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.V(n.w.IL("http://bbj.up.railway.app/api/v1/normal-packages",t.z),$async$wR)
+return A.V(n.w.IL("https://bbj.up.railway.app/api/v1/normal-packages",t.z),$async$wR)
 case 7:m=b
 if(J.a2(m.a,"success"))n.P(new A.auL(n,m))
 p=2
@@ -47043,7 +47043,7 @@ case 6:s=b!==B.d7?3:5
 break
 case 3:p=8
 s=11
-return A.V(n.e.IL("http://bbj.up.railway.app/api/v2/all-packages",t.z),$async$p8)
+return A.V(n.e.IL("https://bbj.up.railway.app/api/v2/all-packages",t.z),$async$p8)
 case 11:m=b
 if(J.a2(m.a,"success"))n.P(new A.auE(n,m))
 p=2
@@ -47149,7 +47149,7 @@ break
 case 3:p=8
 k=t.z
 s=11
-return A.V(n.f.IM("http://bbj.up.railway.app/api/v1/my-locations",A.al(["email",i],t.N,k),k),$async$nl)
+return A.V(n.f.IM("https://bbj.up.railway.app/api/v1/my-locations",A.al(["email",i],t.N,k),k),$async$nl)
 case 11:m=b
 if(J.a2(m.a,"success"))n.P(new A.aw5(n,m))
 p=2
@@ -47209,7 +47209,7 @@ var $async$wK=A.O(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 k=t.z
 s=7
-return A.V(n.f.IM("http://bbj.up.railway.app/api/v1/delete-location",A.al(["email",a,"nameoflocation",b],t.N,k),k),$async$wK)
+return A.V(n.f.IM("https://bbj.up.railway.app/api/v1/delete-location",A.al(["email",a,"nameoflocation",b],t.N,k),k),$async$wK)
 case 7:m=d
 if(J.a2(m.a,"success"))A.dx(J.a2(m.a,"message"),B.ag,"center")
 p=2
@@ -47256,7 +47256,7 @@ g=t.z
 A.ja(!1,new A.aw7(),e,g)
 p=13
 s=16
-return A.V(n.f.IM("http://bbj.up.railway.app/api/v1/add-location",A.al(["email",m,"nameoflocation",n.gqY().a,"address",l,"closestlandmark",k,"apartment",j],t.N,g),g),$async$tn)
+return A.V(n.f.IM("https://bbj.up.railway.app/api/v1/add-location",A.al(["email",m,"nameoflocation",n.gqY().a,"address",l,"closestlandmark",k,"apartment",j],t.N,g),g),$async$tn)
 case 16:i=b
 if(J.a2(i.a,"success")){e=n.c
 e.toString
@@ -48329,14 +48329,14 @@ b=n.f
 f=t.N
 e=t.z
 s=13
-return A.V(b.vt("http://bbj.up.railway.app/api/v1/signin",A.al(["email",m,"password",l],f,f),A.agt("application/x-www-form-urlencoded",null),e),$async$pt)
+return A.V(b.vt("https://bbj.up.railway.app/api/v1/signin",A.al(["email",m,"password",l],f,f),A.agt("application/x-www-form-urlencoded",null),e),$async$pt)
 case 13:k=a1
 s=J.f(J.a2(k.a,"success"),"true")?14:16
 break
 case 14:n.P(new A.aBW(c,k))
 j=A.al(["access-token",c.a],f,f)
 s=17
-return A.V(b.vt("http://bbj.up.railway.app/api/v1/validate",A.y(e,e),A.agt("application/x-www-form-urlencoded",j),e),$async$pt)
+return A.V(b.vt("https://bbj.up.railway.app/api/v1/validate",A.y(e,e),A.agt("application/x-www-form-urlencoded",j),e),$async$pt)
 case 17:i=a1
 if(J.a2(i.a,"success")){A.dx(J.a2(k.a,"message"),B.ag,"center")
 n.P(new A.aBX(n,k))
@@ -48453,7 +48453,7 @@ break
 case 6:p=10
 d=t.N
 s=13
-return A.V(n.f.vt("http://bbj.up.railway.app/api/v1/signup",A.al(["firstname",m,"lastname",l,"email",k,"phonenumber",j,"password",i],d,d),A.agt("application/x-www-form-urlencoded",null),t.z),$async$tr)
+return A.V(n.f.vt("https://bbj.up.railway.app/api/v1/signup",A.al(["firstname",m,"lastname",l,"email",k,"phonenumber",j,"password",i],d,d),A.agt("application/x-www-form-urlencoded",null),t.z),$async$tr)
 case 13:h=b
 if(J.a2(h.a,"success")){A.dx(J.a2(h.a,"message"),B.ag,"center")
 d=n.c
